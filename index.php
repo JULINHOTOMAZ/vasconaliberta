@@ -10,6 +10,7 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel='icon' type='image/png' href='img/IconHead.png'/>
 </head>
 
 <?php
@@ -31,9 +32,11 @@ echo("<body>
 
 <div class='container full'>
 
+
 <div class='row '>
 	<div class='col-md-3 col-xs-12'>
 		<img class='mymark2' src='img/libert.png'>
+		
 	</div>
 	<div class='col-md-6 col-xs-12'>
 		<img class='mymark' src='img/logo.png'>
@@ -45,7 +48,8 @@ echo("<body>
 		}
 	echo("
 
-		<h1 align='center'>Vasco na <font color='#D2883B'>Libertadores</font> 2018</h1>
+		<h1 class='maintitle'>Vasco na <font color='#D2883B'>Libertadores</font> 2018</h1>
+		
 	</div>
 	<div class='col-md-3 col-xs-12'>
 
@@ -57,13 +61,25 @@ echo("<body>
 			</form>
 			<hr>
 			<a href='doc/CadastroUser.php'>Cadastre-se</a><spam> | </span><a href='#'>Recuperar Senha</a>
+			<div class='col-md-4'><img class='mymark' src='img/Twitter.png'></div>
+			<div class='col-md-4'><img class='mymark' src='img/Facebook.png'></div>
+			<div class='col-md-4'><img class='mymark' src='img/insta.png'></div>
 		</div>
 	</div>
 	
 
 </div>
 
-<div class='row rowfull'>");
+<div class='row rowfull '>
+<nav class='barmenu'>
+	<ul>
+		<a href='doc/materia_001.php'><li>Home</li></a>
+		<a href='doc/materia_001.php'><li>Notícias</li></a>
+		<a href='doc/materia_001.php'><li>Elenco</li></a>
+	</ul>
+</nav>
+
+");
 	
 	$cont=0;
 	
